@@ -1,14 +1,14 @@
-export * as Hello from "./hello/world.js";
-export * as Sub from "./sub.js";
+/**
+ * 否定後読み (?<!\/|\d)
+ */
+const PATTERN = /(?<![a-zA-Z0-9])(#\d+)/g;
 
-export const hello = (name: string): string => {
-  const params = {
-    hoge: 1,
-    fuga: 2,
+type ReplacerFunc = (substring: string, ...args: unknown[]) => string;
+
+export const sharpToMdLink = (baseUrl: string, text: string): string => {
+  const replacer: ReplacerFunc = (substring: string) => {
+    const [_, number] = substring.split("#");
+    return `[${substring}](${baseUrl}/${number})`;
   };
-  return `Hello ${name} ${JSON.stringify(params)}`;
+  return text.replace(PATTERN, replacer);
 };
-
-console.log(hello("Your name"));
-
-export default hello;

@@ -1,10 +1,13 @@
 {
   "name": "@himenon/sharp-to-markdown-link",
   "version": "1.1.1",
-  "description": "ESModule Library Template",
+  "description": "Replace numbers starting with # with markdown links",
   "keywords": [
-    "template",
-    "typescript"
+    "markdown",
+    "shark",
+    "convert",
+    "link",
+    "url"
   ],
   "homepage": "https://github.com/Himenon/sharp-to-markdown-link#readme",
   "bugs": {

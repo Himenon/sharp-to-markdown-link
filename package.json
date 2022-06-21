@@ -1,6 +1,6 @@
 {
   "name": "@himenon/sharp-to-markdown-link",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Replace numbers starting with # with markdown links",
   "keywords": [
     "markdown",

@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="1.0.1"></a>
+## 1.0.1 (2022-06-21)
+
+
+### Chores
+
+* add source code ([#1](https://github.com/Himenon/sharp-to-markdown-link/issues/1)) ([a18b8fb](https://github.com/Himenon/sharp-to-markdown-link/commit/a18b8fb))
+
+
+
+
+
 <a name="1.1.1"></a>
 ## 1.1.1 (2022-06-06)
 
